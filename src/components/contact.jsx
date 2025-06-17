@@ -2,10 +2,13 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 
+import { useNavigate } from "react-router-dom";
+
 // npm i @emailjs/browser
 
 const Contact = () => {
   const form = useRef();
+  const navigate = useNavigate();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,9 +24,11 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          navigate("/success");
         },
         (error) => {
           console.log(error.text);
+          navigate("/error", { state: { message: "Failed to submit form" } });
         }
       );
   };
