@@ -1,11 +1,11 @@
+import '../index.css';
+import '../NavbarTest.css';
+
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 
-import '../index.css';
-import '../NavbarTest.css';
-
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 //import { Link } from 'react-router-dom'
 
 // npm i @emailjs/browser
@@ -39,6 +39,7 @@ const Contact = () => {
 
   return (
     <StyledContactForm>
+      <div class="topnav-centre">
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="name" />
@@ -47,7 +48,7 @@ const Contact = () => {
         <label>Message</label>
         <textarea name="message" />
         <input type="submit" value="Send" />
-      </form>
+      </form></div>
     </StyledContactForm>
   );
 };
@@ -57,13 +58,14 @@ export default Contact;
 // Styles
 const StyledContactForm = styled.div`
   width: 400px;
-
+  
   form {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
     font-size: 16px;
+    padding: 25px;
 
     input {
       width: 100%;
