@@ -54,8 +54,6 @@
   right: -0.5rem;
 }
 
-
-
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -95,7 +93,48 @@
 }
 
 th {
-  width: 600px;
-  margin-left: 10px;
+  /* width: 150px; */
+  margin-left: 5px;
   text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+p.indent {
+    /* text-indent: 30px;*/
+    margin-left: 30px; 
+}
+
+.center {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  text-decoration: none;
+  /*height: 300px;  Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: auto;
+}
+
+a {
+  text-decoration: none; 
 }
