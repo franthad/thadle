@@ -30,7 +30,7 @@ const Privacy = () => {
       stated.</p><p><div id="contact"><b>1. Contact details</b></div></p>
       <p>If you have any queries or requests about this privacy policy or how we handle your 
       information more generally, you can get in touch by contacting us using our contact form available 
-      &nbsp;<a href="https://thadle.com/contact">here.</a></p>
+      &nbsp;<a href="https://thadle.com/Contact">here.</a></p>
       <p><div id="information"><b>2. Information we collect about you</b></div></p>
       <p>As part of our commitment to the privacy of our customers, and visitors to our Sites more generally, 
         we want to be clear about the sorts of information we will collect about you.</p>
