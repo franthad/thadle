@@ -1,5 +1,5 @@
 import '../NavbarTest.css';
-
+ 
 const Privacy = () => {
   return <><h1>Thadle iMeal Privacy Policy</h1>
   <html>
@@ -30,7 +30,7 @@ const Privacy = () => {
       stated.</p><p><div id="contact"><b>1. Contact details</b></div></p>
       <p>If you have any queries or requests about this privacy policy or how we handle your 
       information more generally, you can get in touch by contacting us using our contact form available 
-      &nbsp;<a href="https://thadle.com/Contact">here.</a></p>
+      &nbsp;<a href="https://thadle.com">here.</a></p>
       <p><div id="information"><b>2. Information we collect about you</b></div></p>
       <p>As part of our commitment to the privacy of our customers, and visitors to our Sites more generally, 
         we want to be clear about the sorts of information we will collect about you.</p>
@@ -247,7 +247,7 @@ const Privacy = () => {
         <p>Our fraud checks are in place to protect our customers, as well as Thadle. You have the right 
           to query, and our customer support will look into any decision you feel may have been caught 
           by our fraud checks that have impacted you by contacting us using our contact form 
-          available&nbsp;<a href="https://thadle.com/contact">here.</a></p>
+          available&nbsp;<a href="https://thadle.com/">here.</a></p>
         <p> <div id="retention"><b>8. Retention of your information</b></div></p>
         <p>We will only retain your information for as long as reasonably necessary to fulfil the purposes 
           we collected it for, and for the purposes of satisfying any legal, regulatory, tax, accounting 
